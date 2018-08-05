@@ -9,9 +9,19 @@
 #  can be overwritten by setting it on make cmdline like:
 # make kbuilddir=~/git/kernel/net-next/
 #
-kbuilddir ?= /lib/modules/$(shell uname -r)/build/
+ifneq (,$(BUILD_KERNEL))
+	KSRC  ?= /lib/modules/$(BUILD_KERNEL)/build
+	kbuilddir ?= $(KSRC)
+else
+	#kbuilddir ?= /lib/modules/$(shell uname -r)/build/
+	kbuilddir ?= /data/build/kernel/kernel-4.18.0-amd64
+endif
 
 # Trick to modify kernels CFLAGS
+ifneq (,$(ANI_DEBUG))
+	KBUILD_CFLAGS+=-g -O0 -fno-inline
+endif
+
 #KBUILD_CFLAGS+=-g -O0
 #KBUILD_CFLAGS+=-g -O3
 #KBUILD_CFLAGS+=-g -O2 -fno-inline

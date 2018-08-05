@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="0.1593729338">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="0.1593729338" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="0.1593729338" name="Default" parent="org.eclipse.cdt.build.core.prefbase.cfg">
+					<folderInfo id="0.1593729338." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.100107188" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
+							<targetPlatform id="org.eclipse.cdt.build.core.prefbase.toolchain.100107188.1087272478" name=""/>
+							<builder autoBuildTarget="BUILD_KERNEL=4.18-rc7-ani16" cleanBuildTarget="BUILD_KERNEL=4.18-rc7-amd64-ani16 clean" command="make" enableAutoBuild="false" id="org.eclipse.cdt.build.core.settings.default.builder.1738225678" incrementalBuildTarget="BUILD_KERNEL=4.18-rc7-amd64-ani16" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="false" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.66266293" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1632850674" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.347882526" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__KERNEL__=1"/>
+									<listOptionValue builtIn="false" value="HAVE_ANI=1"/>
+									<listOptionValue builtIn="false" value="__MODULES__=1"/>
+									<listOptionValue builtIn="false" value="MODULE=1"/>
+									<listOptionValue builtIn="false" value="BUILD_KERNEL=4.18-rc7-amd64-ani16"/>
+									<listOptionValue builtIn="false" value="EXTRAVERSION=-amd64"/>
+									<listOptionValue builtIn="false" value="__GNUC__=1"/>
+									<listOptionValue builtIn="false" value="KBUILD_MODNAME=&quot;mlnx5&quot;"/>
+									<listOptionValue builtIn="false" value="KBUILD_BASENAME=&quot;mlnx5_main&quot;"/>
+									<listOptionValue builtIn="false" value="__x86_64__"/>
+									<listOptionValue builtIn="false" value="__SANE_USERSPACE_TYPES__"/>
+									<listOptionValue builtIn="false" value="CC_HAVE_ASM_GOTO=1"/>
+									<listOptionValue builtIn="false" value="CC_USING_FENTRY=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_AS_AVX=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_AS_AVX2=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_AS_CFI=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_AS_CFI_SECTIONS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_AS_CFI_SIGNAL_FRAME=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_AS_CRC32=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_AS_FXSAVEQ=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_X86_X32_ABI=1"/>
+									<listOptionValue builtIn="false" value="MLNX_PTP"/>
+									<listOptionValue builtIn="false" value="MLNX_NO_LRO"/>
+									<listOptionValue builtIn="false" value="ANI_ADAPTER=mlnx5_adapter"/>
+									<listOptionValue builtIn="false" value="HAVE_ANI_MLNX5_ADAPTER"/>
+									<listOptionValue builtIn="false" value="HAVE_PTP_1588_CLOCK"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1716916301" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/x86-kernel-4.18-rc7/arch/x86/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/x86-kernel-4.18-rc7/arch/x86/include/generated}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/x86-kernel-4.18-rc7/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/x86-kernel-4.18-rc7/arch/x86/include/uapi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/x86-kernel-4.18-rc7/arch/x86/include/generated/uapi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/x86-kernel-4.18-rc7/include/uapi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/x86-kernel-4.18-rc7/include/generated/uapi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/x86-kernel-4.18-rc7/include/generated}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/include"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1923442838" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.227917125" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.125356332" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__KERNEL__=1"/>
+									<listOptionValue builtIn="false" value="HAVE_ANI=1"/>
+									<listOptionValue builtIn="false" value="__MODULES__=1"/>
+									<listOptionValue builtIn="false" value="MODULE=1"/>
+									<listOptionValue builtIn="false" value="BUILD_KERNEL=4.18-rc7-amd64-ani16"/>
+									<listOptionValue builtIn="false" value="EXTRAVERSION=-amd64"/>
+									<listOptionValue builtIn="false" value="__GNUC__=1"/>
+									<listOptionValue builtIn="false" value="KBUILD_MODNAME=&quot;mlnx5&quot;"/>
+									<listOptionValue builtIn="false" value="KBUILD_BASENAME=&quot;mlnx5_main&quot;"/>
+									<listOptionValue builtIn="false" value="__x86_64__"/>
+									<listOptionValue builtIn="false" value="__SANE_USERSPACE_TYPES__"/>
+									<listOptionValue builtIn="false" value="CC_HAVE_ASM_GOTO=1"/>
+									<listOptionValue builtIn="false" value="CC_USING_FENTRY=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_AS_AVX=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_AS_AVX2=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_AS_CFI=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_AS_CFI_SECTIONS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_AS_CFI_SIGNAL_FRAME=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_AS_CRC32=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_AS_FXSAVEQ=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_X86_X32_ABI=1"/>
+									<listOptionValue builtIn="false" value="MLNX5_PTP"/>
+									<listOptionValue builtIn="false" value="MLNX5_NO_LRO"/>
+									<listOptionValue builtIn="false" value="ANI_ADAPTER=mlnx5_adapter"/>
+									<listOptionValue builtIn="false" value="HAVE_ANI_MLNX5_ADAPTER"/>
+									<listOptionValue builtIn="false" value="HAVE_PTP_1588_CLOCK"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1092566787" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/x86-kernel-4.18-rc7/arch/x86/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/x86-kernel-4.18-rc7/arch/x86/include/generated}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/x86-kernel-4.18-rc7/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/x86-kernel-4.18-rc7/arch/x86/include/uapi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/x86-kernel-4.18-rc7/arch/x86/include/generated/uapi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/x86-kernel-4.18-rc7/include/uapi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/x86-kernel-4.18-rc7/include/generated/uapi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/x86-kernel-4.18-rc7/include/generated}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/include"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.803657933" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="0.1593729338.1484113343" name="Makefile" rcbsApplicability="disable" resourcePath="Makefile" toolsToInvoke=""/>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="ani-clock;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier"/>
+				<externalSettings containerId="x86-kernel-4.18-rc7;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier"/>
+			</storageModule>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="mlnx5.null.1286885207" name="mlnx5"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/mlnx5"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="0.1593729338">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name="bpf" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>bpf</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="bpf debug" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>bpf ANI_DEBUG=1</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="bpf clean" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>bpf clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+		</buildTargets>
+	</storageModule>
+</cproject>

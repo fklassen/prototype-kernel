@@ -61,7 +61,11 @@ USER_OBJECTS = ${USER_SOURCES:.c=.o}
 kbuilddir ?= /lib/modules/$(shell uname -r)/build/
 KERNEL=$(kbuilddir)
 
-CFLAGS := -g -O2 -Wall
+ifneq (,$(ANI_DEBUG))
+	CFLAGS := -g -O0 -fno-inline -Wall
+else
+	CFLAGS := -g -O2 -Wall
+endif
 
 # Local copy of kernel/tools/lib/
 CFLAGS += -I./tools/lib
